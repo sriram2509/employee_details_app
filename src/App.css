@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn{
+  margin: 2px;;
+}
+.divbtn{
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.resetbtn{
+  color:#fffdfb;
+  background-color: hwb(34 1% 0%);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 10px 24px;
+  border: 2px solid #fd950c;
+  cursor: pointer;
+  margin-right:12px
+  
+
+}
+.submitbtn{
+  color:#fcfcfc;
+  background-color: #206e34;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 10px 24px;
+  border: 2px solid #206e34;
+  cursor: pointer;
+  margin-right:12px
+
+}
+.img{
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  
+  
+}
+
+/* div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.img {
+  width: 100%;
+  height: auto;
+} */
+
+img {
+  max-width: 400%;
+  height: auto;
+  width: auto;
+}
+
+.item {
+  width: 400px;
+  min-height: 400px;
+  max-height: auto;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+/* .holder{
+  width:90%;
+  position: absolute;
+  border: 1px solid #ddd;                                                                                                                                                                                                                                                                                                                                                                                                                                         
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.unselectable {
+  
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.rmbtn{
+  background-color: red;
+  color: #fffdfb;
+  border: black 2px;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+  .box{    
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+
+}
+
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance: none;margin: 0;}
